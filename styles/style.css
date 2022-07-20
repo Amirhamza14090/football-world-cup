@@ -238,7 +238,7 @@ color: blue;
 
 /* responsive for mobile */
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:688px) {
     body{
      width: 100%;
      height: 100%;
@@ -309,4 +309,81 @@ color: blue;
         padding-bottom: 30px;
     }
  }
- 
+ @media only screen and (min-width:689px) and (max-width:992px) {
+    .top-banner{
+        width: 100%;
+        margin: 10px 10px 20px 20px;
+        margin-left: 0px;
+    }
+    .top-banner img{
+        width: 200px;
+        position: relative;
+        left: 70px;
+        top: -10px;
+    }
+    .banner-info{
+        position: relative;
+        left: -40px;
+    }
+    .banner-info h1{
+        position: relative;
+        top: -10px;
+        left: -30px;
+        font-size: 25px;
+    }
+    .banner-info p{
+        position: relative;
+        top: -10px;
+        left: -30px;
+        font-size: 10px;
+    }
+    .banner-info a{
+        padding: 2px 4px 2px 4px;
+        justify-content: center;
+        top: -150px;
+       
+    }
+    .all-items{
+        display:inline-block;
+    }
+    .match-blog-section{
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        width: 670px;
+        margin: 5px 5px;
+        padding: 30px 30px;
+    }
+    .match-schedule-match a{
+        margin: 10px 20px;
+        padding: 20px;
+
+    }
+    .match-schedule-match a p{
+        position: relative;
+        left: -5px;
+    }
+    .match-schedule-match .match-btn1{
+        position: relative;
+        left: -5px;
+    }
+    .match-schedule-match .match-btn{
+        position: relative;
+        left: -5px;
+    }
+    .main-box{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    footer{
+        width: 100%;
+        height: 500px;
+
+    }
+    .social-icon{
+        position: relative;
+        left: 315px;
+    }
+ }
