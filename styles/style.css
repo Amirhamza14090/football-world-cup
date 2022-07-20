@@ -347,16 +347,31 @@ color: blue;
         display:inline-block;
     }
     .match-blog-section{
-        display: flex;
+        display:flex;
         flex-direction: row;
-        height: 50px;
-        width: 670px;
-        margin: 5px 5px;
-        padding: 30px 30px;
+        row-gap: 10px;
+        height: 100px;
+        width: 1000px;
+        margin: 4px 4px;
+        padding: 20px 20px;
+        background-color: white;
+    
+       
+    }
+    .match-btn1{
+        border: 1px solid gray;
+        padding-bottom: 20px;
+        
+    }
+    .match-btn{
+        width: 100px;
+        height: 30px;
+        
     }
     .match-schedule-match a{
         margin: 10px 20px;
         padding: 20px;
+        text-align: center;
 
     }
     .match-schedule-match a p{
@@ -383,7 +398,7 @@ color: blue;
 
     }
     .social-icon{
-        position: relative;
+        position:absolute;
         left: 315px;
     }
  }
