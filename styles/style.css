@@ -195,17 +195,30 @@ footer hr{
     height: 250px;
 
 }
+
 /* match schedule htmls */
 
-.match-schedule{
-    display: grid;
+.match-schedule-match{
+    display:grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 5px;
+  
+    margin-right: 20px;
+    padding: 10px;
+    grid-gap: 15px;
+    
+   
+    
 }
-.box{
-    text-align: center;
+.upcoming-match{
+    display: flex;
+    flex-wrap: wrap;
+   
+    align-items: center;
 }
 .text{
     grid-column: 1/-1;
+    text-align: center;
+}
+.boxes{
     text-align: center;
 }
