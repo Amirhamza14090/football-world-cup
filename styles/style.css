@@ -1,85 +1,184 @@
 /* body-fonts */
 body{
     margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;
 }
 /* main-section-styles */
-.headings{
-    width: 1300px;
-    height: 646px;
+#container{
+    width: 100%;
+}
+.top-banner{
+    width: 1000px;
     background-color: black;
-    color: white;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 80px;
+    padding: 50px 10px 0px 10px;
+    border-radius: 15px;
+}
+.banner-info{
+    width: 400px;
     margin-left: 100px;
-    margin-right: 130px;
-    border-radius: 30px;
-    position: absolute;
-    
+    margin-top: 30px;
 }
-h1{
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 80px;
-}
-.text{
-
-    width: 531px;
-    height: 420px;
-    margin-left: 150px;
-    margin-top: 100px;
-}
-.pictures{
-   width: 580px;
-   height: 900px;
-   margin-top: 90px;
-   margin-left: 80px;
-   
-}
-.view-more{
-    width: 170px;
-    height: 60px;
-    margin-top: 10px;
+.banner-info h1{
     color: white;
-    background-color: red;
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.banner-info p{
+    color: #979797;
+    line-height: 17px;
+    margin-bottom: 30px;
+}
+.watch-btn{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    padding: 10px 15px;
+    background-color: #DD0000;
     border-radius: 5px;
+    transition: all .5s;
 }
-.fa-solid{
-    width: 24px;
-    height: 24px;
-    padding-right: 30px;
-    margin-right: 200px;
-    
-    
-    
+.watch-btn:hover{
+    background-color: #8e2221;
+    cursor: pointer;
 }
-/* body-styles */
-.match-schedule{
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    margin-left: 140px;
-    top: 825px;
+.banner-image img{
+    width: 350px;
+    margin-right: 90px;
+}
+
+/* top-banner-styless */
+
+.all-items{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.match-blog-section{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin-left: 40px;
     background-color: black;
+    border-radius: 15px;
+}
+.match-blog-section a{
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.match-blog-section .match-btn1{
+    background-color: white;
+    color: black;
+}
+.match-blog-section .match-btn{
+    background-color: #e04747;
+    color: white;
+    transition: .5s;
+}
+.match-btn:hover{
+    background-color: #bc2525;
+    cursor: progress;
+}
+
+/* ready box styles */
+
+.main-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.box{
+    width: 240px;
+    height: 310px;
+    background-color: rgb(248, 248, 248);
     border-radius: 10px;
 }
-.match-schedule a{
+.box-info{
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 20px;
+}
+.box-image{
+    width: 100%;
+}
+.box-info a{
+    padding: 5px 20px;
+    color: rgb( 141, 141, 141);
     text-decoration: none;
-    
-    background-color: beige;
-
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.box-info h3{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.box-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.box-icon:last-child .icon1{
+    margin-right: 40px;
+}
+.icon1{
+    display: flex;
+    align-items: center;
+}
+.icon1 p{
+    margin-left: 20px;
 }
 
-.match-date .body{
-    width: 250px;
-    height: 70px;
-    border: 1px solid grey;
-    background-color: beige;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    column-gap: 5px;
+/* footer part */
+
+footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+}
+footer h1{
+    color: white;
     text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 80px 0px 30px 0px;
+
+}
+footer hr{
+    width: 70%;
+    margin: auto;
+}
+.about{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.about p{
+    color: white;
+    font-weight: 400;
+    margin: 0px 20px;
+}
+.social-icon{
+    text-align: center;
+    margin-top: 30px;
+}
+.social-icon a{
+    text-decoration: none;
+    margin: 0px 30px;
+    color: white;
+    font-size: 15px;
 }
