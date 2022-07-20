@@ -112,7 +112,7 @@ font-family: 'Roboto Slab', serif;
     width: 100%;
     margin-left: 20px;
 }
-.box-image{
+.box-image img{
     width: 100%;
 }
 .box-info a{
@@ -140,7 +140,7 @@ font-family: 'Roboto Slab', serif;
     align-items: center;
 }
 .icon1 p{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 /* footer part */
