@@ -222,3 +222,16 @@ footer hr{
 .boxes{
     text-align: center;
 }
+
+/* all groups csss */
+
+.view-group h1{
+text-align: center;
+color: blue;
+}
+.view-group p{
+    text-align: center;
+}
+.view-group img{
+    width: 100%;
+}
