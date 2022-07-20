@@ -182,3 +182,30 @@ footer hr{
     color: white;
     font-size: 15px;
 }
+.all-image{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.image-team{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    width: 250px;
+    height: 250px;
+
+}
+/* match schedule htmls */
+
+.match-schedule{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+.box{
+    text-align: center;
+}
+.text{
+    grid-column: 1/-1;
+    text-align: center;
+}
